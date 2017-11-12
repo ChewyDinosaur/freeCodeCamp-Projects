@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body {
+  background-image: url("https://static.pexels.com/photos/94363/pexels-photo-94363.jpeg");
+  background-color: #006666;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.title {
+  margin: 50px -20px;
+  padding: 25px;
+  text-align: center;
+  color: grey;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.weather-info {
+  position: relative;
+  padding: 20px 0 50px 0;
+  margin: auto;
+  width: 800px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.main-info {
+  color: grey;
+}
+
+.toggle-button {
+  position: absolute;
+  right: 25px;
+  background-color: grey;
+  padding: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  opacity: 0.75;
+}

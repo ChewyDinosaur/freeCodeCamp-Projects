@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitch API</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>twitch live</h1>
+    <div class="header-right">
+      <div class="input-div">
+        <input id="search-input" type="text" placeholder="Add a channel">
+        <button class="button button-add">Add</button>
+      </div>
+      <div class="button-div">
+        <button class="button" id="button-all">All</button>
+        <button class="button" id="button-online">Online</button>
+        <button class="button" id="button-offline">Offline</button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+
+    <div class="stream-container">
+      <div class="stream-online">
+      </div>
+      <div class="stream-offline">
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Kaushan+Script');
+
+body {
+  background-color: #00cc66;
+}
+
+#quote-title {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 100px;
+}
+
+.main {
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: white;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.quote-text {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Amatic SC', cursive;;
+  font-size: 40px;
+  color: #00cc66;
+}
+
+.quote-author {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  font-family: 'Amatic SC', cursive;;
+  font-size: 25px;
+  color: #00cc66;
+}
+
+.button {
+  margin: 80px 40px 10px 40px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #00cc66;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.tweet-link {
+  text-decoration: none;
+  color: white;
+}
