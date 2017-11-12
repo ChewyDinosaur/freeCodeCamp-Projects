@@ -6,6 +6,6 @@ All the projects created for the freeCodeCamp curriculum
 
 ![Alt text](_img/quote.png "Quote Generator")
 
-[A version of this can be seen here on CodePen.](https://codepen.io/ChewyDinosaur/full/BpxeyN/)
+### [View on CodePen.](https://codepen.io/ChewyDinosaur/full/BpxeyN/)
 
 
