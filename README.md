@@ -3,6 +3,12 @@ All the projects created for the freeCodeCamp curriculum
 
 
 
+## Pomodoro Clock
+
+[View on CodePen](https://codepen.io/ChewyDinosaur/full/YEEVVO/)
+
+
+
 ## Calculator
 
 ![Alt text](_img/calc.png "Calculator")
