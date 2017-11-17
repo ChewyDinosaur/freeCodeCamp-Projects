@@ -5,6 +5,8 @@ All the projects created for the freeCodeCamp curriculum
 
 ## Pomodoro Clock
 
+![Alt text](_img/clock.png "Pomodoro Clock")
+
 [View on CodePen](https://codepen.io/ChewyDinosaur/full/YEEVVO/)
 
 
