@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto');
+
+/* ------- Variables ------- */
+$brown: #523F38;
+$green: #1EA896;
+$orange: #FF715B;
+$gray: #373d3d;
+$font-color: #e6e6e6;
+
+$title-font: 'Permanent Marker', cursive;
+$primary-font: 'Roboto', sans-serif;
+
+/* ------- Styles ------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: $title-font;
+    font-size: 72px;
+    color: $font-color;
+}
+
+.settingsTitles {
+    font-family: $primary-font;
+    color: $font-color;
+    display: flex;
+    flex-direction: row;
+
+    p {
+        margin: 0 80px 0 80px;
+    }
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px 0 30px;
+}
+
+.increment {
+    font-size: 48px;
+    margin: 0 10px 0 10px;
+    width: 55px;
+    text-align: center;
+    font-family: $primary-font;
+    color: $green;
+
+    &:hover {
+        cursor: pointer;
+        color: $orange;
+    }
+} 
+
+.num {
+    font-size: 48px;
+    color: $font-color;
+}
+
+.clock {
+    width: 300px;
+    height: 300px;
+    border: 4px solid $orange;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: $primary-font;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.clockTimer {
+    font-size: 72px;
+    color: $font-color;
+}
+
+.clockType {
+    font-family: $title-font;
+    color: $font-color;
+    font-size: 48px;
+}

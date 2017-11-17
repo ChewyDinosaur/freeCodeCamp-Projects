@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Clock</title>
+    <link rel='stylesheet' href='css/output.css'>
+    <script src='script.js' defer></script>
+</head>
+<body>
+    <div class='container'>
+        <h1 class='title'>Stay Focused!</h1>
+        <div class='settingsTitles'>
+            <p class='sessionTitle'>Session Time</p>
+            <p class='breakTitle'>Break Time</p>
+        </div>
+        <div class='settings'>
+            <div class='box'>
+                <div class='increment add session'>+</div>
+                <div class='num' id='sessionNum'>25</div>
+                <div class='increment remove session'>-</div>
+            </div>
+            <div class='box'>
+                <div class='increment add break'>+</div>
+                <div class='num' id='breakNum'>5</div>
+                <div class='increment remove break'>-</div>
+            </div>
+        </div>
+        <div class='clock'>
+            <p class='clockTimer'>25:00</p>
+        </div>
+        <h1 class='clockType'></h1>
+    </div>
+</body>
+</html>
