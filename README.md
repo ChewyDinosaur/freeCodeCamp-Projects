@@ -1,5 +1,5 @@
-# freeCodeCamp-Projects
-All the projects created for the freeCodeCamp curriculum
+# freeCodeCamp-Projects-OLD
+freeCodeCamp updated their curriculum on 05/20/2018, adding new projects and changing requirements of existing projects. These are all the older projects I completed with the oudated requirements.
 
 
 
